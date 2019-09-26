@@ -1,0 +1,80 @@
+header{
+    position: sticky;
+    top: 0;
+}
+.mylist{
+margin-left: auto;
+}
+.mylist ul li{
+    background-color: #343a40;
+    border: 0px;
+}
+a:hover{
+    text-decoration-line: none;
+    color: red;
+}
+.mydes{
+    height: 280px;
+    margin-top: 0px !important;
+    text-align: center;
+    background: url(images/lappy.jpg) no-repeat;
+    background-size: cover;
+    opacity: 5;
+    
+}
+.abtus{
+    display: none;
+}
+.mydes h2{
+    padding-top: 80px
+}
+.ip-srch{
+    margin-left: auto;
+    padding: 15px 50px;
+}
+.ip-srch button{
+    margin: 0px
+}
+.myBrnds{
+    padding: 50px 0px 0px 50px;
+}
+.services{
+    display: none;
+    padding: 10px 20px 0px 10px;
+}
+.qutes{
+    margin: 10px 15px 20px 5px;
+    padding: 10px;
+}
+
+.wbd{
+    background-color: lightgray;
+    padding: 5px;
+    border: 0.2px solid white;
+}
+
+.mntnce{
+    background-color: lightgray;
+    padding: 20px 5px;
+    border: 0.2px solid white;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        padding: 0px;
+        margin: 0px auto;
+    }
+    header{
+        position: static;
+    }
+    .subscription {
+        display: block !important;
+    }
+    .mycds{
+        margin: 0px !important;
+    }
+  }
